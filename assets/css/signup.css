@@ -1,0 +1,44 @@
+.signup-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup-card {
+  max-width: 520px;
+  width: 100%;
+}
+
+.signup-card h1 {
+  font-size: 1.8rem;
+}
+
+.signup-card .subtitle {
+  margin-top: 6px;
+  color: var(--text-muted);
+}
+
+.signup-form {
+  margin-top: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.terms {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+.terms input {
+  margin-top: 2px;
+  accent-color: var(--primary);
+}
+
+.signup-btn {
+  margin-top: 6px;
+  width: 100%;
+}

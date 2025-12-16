@@ -1,0 +1,23 @@
+.about-hero h1 {
+  font-size: 2rem;
+}
+
+.about-hero p {
+  margin-top: 8px;
+  max-width: 520px;
+  color: var(--text-muted);
+}
+
+.about-highlights {
+  margin-top: 20px;
+}
+
+.about-highlights .card h2 {
+  font-size: 1.1rem;
+  margin-bottom: 8px;
+}
+
+.about-highlights .card p {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}

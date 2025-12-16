@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>StayNest | Contact us</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="assets/css/common.css">
+  <link rel="stylesheet" href="assets/css/contact.css">
+</head>
+<body class="page">
+<header class="navbar">
+  <div class="nav-inner">
+    <a href="landing.html" class="brand">
+      <span class="brand-badge"></span>
+      <span class="brand-text">STAYNEST</span>
+    </a>
+    <nav class="nav-links">
+      <a href="landing.html">Landing</a>
+      <a href="home.html">Home</a>
+      <a href="dashboard.html">Dashboard</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="nav-actions">
+      <a href="login.html" class="btn-pill">Log in</a>
+    </div>
+  </div>
+</header>
+
+<main class="main-content contact-page">
+  <section class="grid-2 contact-grid">
+    <div class="card contact-info">
+      <h1>Contact us</h1>
+      <p>If this were a real platform, here’s where support and partnerships would live. For now, it’s your UI playground.</p>
+
+      <ul class="contact-list">
+        <li><strong>Email:</strong> hello@staynest.demo</li>
+        <li><strong>Support hours:</strong> 9:00 – 21:00 IST</li>
+        <li><strong>Location:</strong> Remote · Built in India</li>
+      </ul>
+    </div>
+
+    <div class="card contact-form-card">
+      <h2>Send a message</h2>
+      <form id="contact-form" class="contact-form">
+        <div class="input-group">
+          <label for="contact-name">Name</label>
+          <input id="contact-name" type="text" required>
+        </div>
+        <div class="input-group">
+          <label for="contact-email">Email</label>
+          <input id="contact-email" type="email" required>
+        </div>
+        <div class="input-group">
+          <label for="contact-topic">Topic</label>
+          <select id="contact-topic">
+            <option value="support">Support</option>
+            <option value="bug">Report a bug</option>
+            <option value="feedback">Feedback</option>
+          </select>
+        </div>
+        <div class="input-group">
+          <label for="contact-message">Message</label>
+          <textarea id="contact-message" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="btn-main">Send message</button>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  Contact form is purely client-side and does not send real emails.
+</footer>
+
+<script src="assets/js/common.js"></script>
+<script src="assets/js/contact.js"></script>
+</body>
+</html>

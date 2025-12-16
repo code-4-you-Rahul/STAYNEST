@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>StayNest | Luxury Stays, Anywhere</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Common CSS -->
+  <link rel="stylesheet" href="assets/css/common.css">
+  <!-- Page CSS -->
+  <link rel="stylesheet" href="assets/css/landing.css">
+</head>
+<body class="page">
+<header class="navbar">
+  <div class="nav-inner">
+    <a href="landing.html" class="brand">
+      <span class="brand-badge"></span>
+      <span class="brand-text">STAYNEST</span>
+    </a>
+    <nav class="nav-links">
+      <a href="landing.html">Landing</a>
+      <a href="home.html">Home</a>
+      <a href="dashboard.html">Dashboard</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="nav-actions">
+      <a href="login.html" class="btn-pill">Log in</a>
+      <a href="signup.html" class="btn-pill primary">Sign up</a>
+    </div>
+  </div>
+</header>
+
+<main class="main-content landing-hero">
+  <div class="landing-left">
+    <div class="badge hot">New · Smart matching engine</div>
+    <h1>
+      Find your next  
+      <span class="gradient-text">dream stay</span>
+      in seconds.
+    </h1>
+    <p class="hero-subtitle">
+      Browse curated rooms, apartments, and villas with real-time pricing, reviews, and AI-powered suggestions tailored to you.
+    </p>
+
+    <form class="hero-search" id="landing-search-form">
+      <div class="input-group">
+        <label for="city">City</label>
+        <input id="city" type="text" placeholder="Bengaluru, Mumbai, Goa..." required>
+      </div>
+      <div class="input-group">
+        <label for="checkin">Check-in</label>
+        <input id="checkin" type="date" required>
+      </div>
+      <div class="input-group">
+        <label for="checkout">Check-out</label>
+        <input id="checkout" type="date" required>
+      </div>
+      <div class="input-group">
+        <label for="guests">Guests</label>
+        <select id="guests">
+          <option value="1">1 guest</option>
+          <option value="2" selected>2 guests</option>
+          <option value="3">3 guests</option>
+          <option value="4">4 guests</option>
+          <option value="5+">5+ guests</option>
+        </select>
+      </div>
+      <button type="submit" class="btn-main">
+        Search stays
+        <span>→</span>
+      </button>
+    </form>
+
+    <div class="hero-metrics">
+      <div class="metric">
+        <span class="metric-number">25K+</span>
+        <span class="metric-label">Verified stays</span>
+      </div>
+      <div class="metric">
+        <span class="metric-number">4.9</span>
+        <span class="metric-label">Average rating</span>
+      </div>
+      <div class="metric">
+        <span class="metric-number">180</span>
+        <span class="metric-label">Cities covered</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="landing-right">
+    <div class="floating-card main-stay">
+      <div class="stay-image stay1"></div>
+      <div class="stay-info">
+        <div class="stay-header">
+          <span class="chip">Superhost</span>
+          <span class="rating-chip">★ 4.95</span>
+        </div>
+        <h3>Skyline Loft, Bengaluru</h3>
+        <p>Entire apartment · 2 guests · 1 bedroom · Wi-Fi · Workspace</p>
+        <div class="stay-footer">
+          <span class="price">₹3,800<span>/night</span></span>
+          <button class="btn-ghost small">View details</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="floating-card secondary-stay">
+      <div class="stay-image stay2"></div>
+      <div class="stay-info">
+        <h4>Beachfront Villa, Goa</h4>
+        <div class="row">
+          <span class="badge hot">Trending</span>
+          <span class="pill-text">3 nights · 4 guests</span>
+        </div>
+        <div class="progress">
+          <div class="progress-fill"></div>
+        </div>
+        <span class="progress-label">86% match for you</span>
+      </div>
+    </div>
+
+    <div class="floating-pill">
+      <span class="dot live"></span>
+      Instant bookings under 60 seconds
+    </div>
+  </div>
+</main>
+
+<footer class="footer">
+  © 2025 StayNest. Inspired by Airbnb & 99acres. Frontend demo only.
+</footer>
+
+<!-- Common JS -->
+<script src="assets/js/common.js"></script>
+<!-- Page JS -->
+<script src="assets/js/landing.js"></script>
+</body>
+</html>

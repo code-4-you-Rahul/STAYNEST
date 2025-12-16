@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>StayNest | Explore Stays</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="assets/css/common.css">
+  <link rel="stylesheet" href="assets/css/home.css">
+</head>
+<body class="page">
+<header class="navbar">
+  <div class="nav-inner">
+    <a href="landing.html" class="brand">
+      <span class="brand-badge"></span>
+      <span class="brand-text">STAYNEST</span>
+    </a>
+    <nav class="nav-links">
+      <a href="landing.html">Landing</a>
+      <a href="home.html">Home</a>
+      <a href="dashboard.html">Dashboard</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="nav-actions">
+      <a href="login.html" class="btn-pill">Log in</a>
+      <a href="signup.html" class="btn-pill primary">Sign up</a>
+    </div>
+  </div>
+</header>
+
+<main class="main-content home-page">
+  <section class="home-header">
+    <div>
+      <h1>Stays in <span id="home-city">India</span></h1>
+      <p class="home-subtitle">
+        Hand-picked private rooms, apartments, and villas based on your dates and preferences.
+      </p>
+    </div>
+    <div class="home-filters">
+      <div class="chip filter-chip active" data-type="all">All</div>
+      <div class="chip filter-chip" data-type="apartment">Apartments</div>
+      <div class="chip filter-chip" data-type="villa">Villas</div>
+      <div class="chip filter-chip" data-type="room">Private rooms</div>
+      <select id="sort-select" class="chip">
+        <option value="recommended">Recommended</option>
+        <option value="price-asc">Price: Low to high</option>
+        <option value="price-desc">Price: High to low</option>
+        <option value="rating-desc">Rating: High to low</option>
+      </select>
+    </div>
+  </section>
+
+  <section class="home-grid" id="listing-grid">
+    <!-- listings added by JS -->
+  </section>
+</main>
+
+<footer class="footer">
+  © 2025 StayNest. Demo listings only. No real bookings.
+</footer>
+
+<script src="assets/js/common.js"></script>
+<script src="assets/js/home.js"></script>
+</body>
+</html>

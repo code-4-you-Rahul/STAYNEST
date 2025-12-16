@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>StayNest | Sign up</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="assets/css/common.css">
+  <link rel="stylesheet" href="assets/css/signup.css">
+</head>
+<body class="page">
+<header class="navbar">
+  <div class="nav-inner">
+    <a href="landing.html" class="brand">
+      <span class="brand-badge"></span>
+      <span class="brand-text">STAYNEST</span>
+    </a>
+    <nav class="nav-links">
+      <a href="landing.html">Landing</a>
+      <a href="home.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="nav-actions">
+      <a href="login.html" class="btn-pill">Log in</a>
+    </div>
+  </div>
+</header>
+
+<main class="main-content signup-main">
+  <section class="signup-card card">
+    <h1>Create your account</h1>
+    <p class="subtitle">Book unique stays or become a host in minutes.</p>
+
+    <form id="signup-form" class="signup-form">
+      <div class="grid-2">
+        <div class="input-group">
+          <label for="first-name">First name</label>
+          <input id="first-name" type="text" required>
+        </div>
+        <div class="input-group">
+          <label for="last-name">Last name</label>
+          <input id="last-name" type="text" required>
+        </div>
+      </div>
+
+      <div class="input-group">
+        <label for="signup-email">Email</label>
+        <input id="signup-email" type="email" required>
+      </div>
+
+      <div class="input-group">
+        <label for="signup-password">Password</label>
+        <input id="signup-password" type="password" required>
+      </div>
+
+      <div class="input-group">
+        <label for="signup-role">I want to</label>
+        <select id="signup-role">
+          <option value="guest">Book stays</option>
+          <option value="host">Become a host</option>
+          <option value="both">Both guest & host</option>
+        </select>
+      </div>
+
+      <label class="terms">
+        <input type="checkbox" id="terms-checkbox">
+        <span>I agree to the Terms & Privacy Policy (demo).</span>
+      </label>
+
+      <button type="submit" class="btn-main signup-btn">Create account</button>
+      <p class="auth-note">Demo only. No real accounts are created.</p>
+    </form>
+  </section>
+</main>
+
+<footer class="footer">
+  Signup flow is client-side only. Use for UI/UX demos.
+</footer>
+
+<script src="assets/js/common.js"></script>
+<script src="assets/js/signup.js"></script>
+</body>
+</html>
