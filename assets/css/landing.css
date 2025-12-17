@@ -4,6 +4,17 @@
   gap: 40px;
   align-items: center;
 }
+#three-bg-container {
+  position: fixed;
+  inset: 0;
+  z-index: -10;
+  background: #000;
+  overflow: hidden;
+}
+canvas {
+  display: block;
+}
+
 
 .landing-left h1 {
   font-size: clamp(2.4rem, 4vw, 3.3rem);
